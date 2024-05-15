@@ -22,8 +22,6 @@ export function BreadcrumbNav() {
     .split("/")
     .filter(Boolean);
 
-  console.log(pathSegments);
-
   return (
     <Breadcrumb className="hidden md:flex">
       <BreadcrumbList>
